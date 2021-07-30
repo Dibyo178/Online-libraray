@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+
+  img {
+    width: 200px;
+  }
+
+  nav {
+    background-color: #190816;
+    line-height: 40px;
+    font-size: 20px;
+
+    a {
+      color: white;
+      margin-right: 15%;
+    }
+  }
+}
+
+$small: 300px;
+$medium: 900px;
+
+.header {
+  @media only screen and (max-width: $small) {
+  }
+  @media only screen and (min-width: $medium) {
+  }
+}
